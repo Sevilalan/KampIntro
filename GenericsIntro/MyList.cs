@@ -22,5 +22,11 @@ namespace GenericsIntro
             }
             items[items.Length - 1] = item; //eklenmek istenen şuan eklendi.
         }
+
+        public int Lenght
+        {
+            get { return items.Length; }
+        }
+       
     }
 }
